@@ -85,3 +85,33 @@ div.img-placeholder{
     justify-content: center;
 }
 
+/*Mainly section two css*/
+h2 {
+    text-align: center;
+}
+
+.container-column-two{
+    display: flex;
+    flex-direction: column;
+    max-width: 130px;
+}
+
+.container-two{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.box-style {
+    min-height: 133px;
+    padding: 0;
+    border: 2px solid #3882F6 ;
+    border-radius: 25px;
+}
+
+.p-two {
+    text-align: center;
+    color: #767676;
+    margin: 5px 0 38.5px 0;
+}
