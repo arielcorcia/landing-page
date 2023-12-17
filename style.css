@@ -31,6 +31,7 @@ li {
 
 .header-logo {
     font-size: 24px;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
@@ -44,19 +45,20 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
     min-height: 303px;
 }
 
 .container-column{
     display: flex;
     flex-direction: column;
-    flex-basis: 350px;
+    flex-basis: 460px;
 }
 
 h1{
     margin: 0;
-    font: 48px bolder Arial, Helvetica, sans-serif;
+    font: 48px Arial, Helvetica, sans-serif;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -67,10 +69,10 @@ h1{
 }
 
 button {
-    max-width: 85px;
-    padding: 6px 10px;
+    max-width: 115px;
+    padding: 10px 30px;
     border: 0;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: #3882F6;
     color: white;
 }
@@ -79,7 +81,7 @@ div.img-placeholder{
     align-items: stretch;
     color: white;
     background-color: gray;
-    flex-basis: 350px;
+    flex-basis: 460px;
     align-items: stretch;
     min-height: 209px;
     display: flex;
