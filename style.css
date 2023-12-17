@@ -1,8 +1,8 @@
 body {
     margin: 0;
 }
-
-header, footer{
+/* Mainly header and footer css */
+header, footer, section.one {
     background-color: #1f2937;
     padding: 15px;
 }
@@ -37,3 +37,51 @@ footer {
     text-align: center;
     color: white;
 }
+
+/* Mainly section one css */
+.container.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 350px;
+}
+
+h1{
+    margin: 0;
+    font: 48px extra-bold;
+    color: #F9FAF8;
+}
+
+#one {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 0 10px 0
+}
+
+button {
+    max-width: 85px;
+    padding: 6px 10px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+}
+
+div.img-placeholder{
+    align-items: stretch;
+    color: white;
+    background-color: gray;
+    flex-basis: 350px;
+    align-items: stretch;
+    min-height: 209px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
